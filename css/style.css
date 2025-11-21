@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+section{
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+}
+
+.nav {
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background: #f4f4f4;
+}
+
+.nav__item {
+    margin: 0 1rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero__title {
+}
+
+.hero__subtitle {
+}
+
+.hero__photo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.about, .skills, .footer{
+    border-top: 1px solid #eee;
+}
+
+.about {
+}
+.about__title {
+}
+.about__text {
+}
+
+.skills {
+}
+.skills__title {
+}
+.skills__list {
+}
+.skills__item {
+}
+
+.footer {
+}
+.footer__title {
+}
+.footer__contacts {
+}
+.footer__contact-item {
+}
