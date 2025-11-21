@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Алим Иттиев | Web-разработчик</title>
+    <title>Алим Иттиев | Full-Stack Web-разработчик</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,6 +13,7 @@
             <ul class="nav__list">
                 <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
                 <li class="nav__item"><a href="#skills" class="nav__link">Навыки</a></li>
+                <li class="nav__item"><a href="#portfolio" class="nav__link">Портфолио</a></li>
                 <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
             </ul>
         </nav>
@@ -20,36 +21,102 @@
 
     <main class="main">
         <section class="hero">
-            <h1 class="hero__title">Алим Иттиев</h1>
-            <p class="hero__subtitle">Разработчик-WEB</p>
+            <div class="hero__content">
+                <h1 class="hero__title">Алим Иттиев</h1>
+                <p class="hero__subtitle">Full-Stack Web-разработчик</p>
+                <p class="hero__description">Создаю современные веб-решения, которые приносят результат</p>
+                <button class="hero__cta" onclick="location.href='#contacts'">Обсудить проект</button>
+            </div>
             <img src="img/Person1.jfif" alt="Фотография Алима Иттиева" class="hero__photo">
         </section>
 
         <section class="about" id="about">
             <h2 class="about__title">Обо мне</h2>
-            <p class="about__text">Full-stack разработчик с фокусом на создание веб-приложений и парсинг данных. Владею стеком Python, PHP, JavaScript, SQL. Готов к интересным задачам и быстрому обучению. Умею делать лендинги и многостраничные сайты.</p>
+            <div class="about__content">
+                <p class="about__text">Full-stack разработчик с 3+ годами опыта. Специализируюсь на создании высоконагруженных веб-приложений и автоматизации бизнес-процессов. Мои решения помогают компаниям увеличивать эффективность и сокращать затраты.</p>
+                <div class="about__stats">
+                    <div class="stat">
+                        <span class="stat__number">15</span>
+                        <span class="stat__text">реализованных проектов</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">98%</span>
+                        <span class="stat__text">довольных клиентов</span>
+                    </div>
+                </div>
+            </div>
         </section>
         
         <section class="skills" id="skills">
-            <h2 class="skills__title">Мои навыки</h2>
+            <h2 class="skills__title">Технологический стек</h2>
+            <p class="skills__subtitle">Владею полным циклом разработки - от фронтенда до бэкенда</p>
             <ul class="skills__list">
-                <li class="skills__item">HTML</li>
-                <li class="skills__item">CSS</li>
-                <li class="skills__item">JavaScript</li>
-                <li class="skills__item">Python</li>
-                <li class="skills__item">PHP</li>
-                <li class="skills__item">WebPack</li>
-                <li class="skills__item">Git</li>
+                <li class="skills__item">
+                    <span class="skill__name">HTML/CSS</span>
+                    <span class="skill__level">Эксперт</span>
+                </li>
+                <li class="skills__item">
+                    <span class="skill__name">JavaScript</span>
+                    <span class="skill__level">Продвинутый</span>
+                </li>
+                <li class="skills__item">
+                    <span class="skill__name">Python</span>
+                    <span class="skill__level">Эксперт</span>
+                </li>
+                <li class="skills__item">
+                    <span class="skill__name">PHP</span>
+                    <span class="skill__level">Продвинутый</span>
+                </li>
+                <li class="skills__item">
+                    <span class="skill__name">WebPack</span>
+                    <span class="skill__level">Средний</span>
+                </li>
+                <li class="skills__item">
+                    <span class="skill__name">Git</span>
+                    <span class="skill__level">Эксперт</span>
+                </li>
             </ul>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="portfolio__title">Мои работы</h2>
+            <div class="portfolio__grid">
+                <div class="portfolio__item">
+                    <img src="img/def.png" alt="Проект 1" class="portfolio__image">
+                    <h3 class="portfolio__item-title">Корпоративный сайт</h3>
+                    <p class="portfolio__item-description">Разработка многостраничного сайта с системой управления контентом</p>
+                </div>
+                <div class="portfolio__item">
+                    <img src="img/def.png" alt="Проект 2" class="portfolio__image">
+                    <h3 class="portfolio__item-title">Интернет-магазин</h3>
+                    <p class="portfolio__item-description">Создание полнофункциональной платформы для онлайн-торговли</p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer class="footer" id="contacts">
-        <h2 class="footer__title">Контакты</h2>
-        <ul class="footer__contacts">
-            <li class="footer__contact-item">Email: alimittiev404@gmail.com</li>
-            <li class="footer__contact-item">Телефон: +7 (928) 717-28-47</li>
-        </ul>
+        <div class="footer__content">
+            <h2 class="footer__title">Готовы начать проект?</h2>
+            <p class="footer__subtitle">Свяжитесь со мной удобным способом</p>
+            <ul class="footer__contacts">
+                <li class="footer__contacts-item">
+                    <span class="contact__type">Email:</span>
+                    <a href="mailto:alim@example.com" class="contact__link">alimittiev404@gmail.com</a>
+                </li>
+                <li class="footer__contacts-item">
+                    <span class="contact__type">Telegram:</span>
+                    <a href="https://t.me/AlimIT" class="contact__link">@AlimIT</a>
+                </li>
+                <li class="footer__contacts-item">
+                    <span class="contact__type">GitHub:</span>
+                    <a href="https://github.com/Ponchip" class="contact__link">github.com/Ponchip</a>
+                </li>
+            </ul>
+            <div class="footer__copyright">
+                © 2025 Алим Иттиев. Все права защищены.
+            </div>
+        </div>
     </footer>
 </body>
 </html>
